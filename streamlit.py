@@ -1,11 +1,5 @@
 import streamlit as st
-#from fact import fact
-
-def fact(n):
-    if n == 0 or n == 1:
-        return 1
-    else:
-        return n*fact(n-1)
+from fact import fact
 
 def main():
     st.title('Factorial Caculator')

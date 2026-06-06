@@ -25,3 +25,15 @@ st.badge("Success", icon=":material/check:", color="green")
 st.badge("Warning", icon=":material/warning:", color="yellow")
 
 st.markdown(":violet-badge[:material/star: Favorite] \ :orange-badge[Need review] \ :gray-badge[Deprecated]")
+
+
+st.write("I love AI Viet Nam")
+st.write("## Heading 2")
+st.write('$ `\sqrt{2x+2} $')
+
+if st.button("Say Hello"):
+    st.write("Hello!!")
+else:
+    st.write("Goodbye!!")
+
+st.link_button("Go to Google", url="https://www.google.com")
